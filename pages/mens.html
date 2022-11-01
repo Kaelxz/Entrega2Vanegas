@@ -1,51 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title>Painless</title>
 	<meta charset="UTF-8" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>About - Painless</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-	integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-<link rel="stylesheet" href="./css/styles.css">
-	<link rel="stylesheet" href="../css/styles.css">
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+	<link rel="stylesheet" href="../css/styles.css" />
 </head>
 
 <body>
-	<header class='header-container'>
-		<h1 class="title">Painless</h1>
+	<header>
+		<h1 class="text-white title animate__animated animate__flip">Painless</h1>
 	</header>
-	<nav class='navbar navbar-expand-md navbar-light'>
-		<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="container-fluid justify-content-between">
-		  <div class="collapse navbar-collapse d-md-flex justify-content-center" id="MenuNavegacion">
-			<ul class='navbar-nav'>
-			  <a href="../index.html" class="nav-link">
-				<li class="nav-item">Home</li>
-			  </a>
-			  <a href="./about.html" class="nav-link">
-				<li class="nav-item">About</li>
-			  </a>
-			  <a href="./mens.html" class="nav-link">
-				<li class="nav-item">Mens</li>
-			  </a>
-			  <a href="./womens.html" class="nav-link">
-				<li class="nav-item">Womens</li>
-			  </a>
-			  <a href="./login.html" class="nav-link">
-				<li class="nav-item">Login</li>
-			  </a>
-			</ul>
-		  </div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-darkp-3">
+		<div class="container">
+			<a class="navbar-brand text-white" href="../index.html">Julian Vanegas</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+					<li class="nav-item">
+						<a class="nav-link text-white active" aria-current="page" href="./about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white active" aria-current="page" href="./mens.html">Men</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white active" aria-current="page" href="./womens.html">Women</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white active" aria-current="page" href="./login.html">Login</a>
+					</li>
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Drake" aria-label="Search" />
+					<button class="btn btn-outline-info" type="submit">Buscar</button>
+				</form>
+			</div>
 		</div>
-	  </nav>
+	</nav>
 	<div class="div__container">
-		<div class="div__card">
+		<div class="div__card text-white">
 			<img src="../img/camisa1.webp" alt="camisa hombre">
 			<h2>Clásica painless hombre</h2>
 			<p>S M L XL XXL</p>
@@ -53,7 +57,7 @@
 			<p>$60</p>
 			<a href="#">Adquirir</a>
 		</div>
-		<div class="div__card">
+		<div class="div__card text-white">
 			<img src="../img/camisa2.webp" alt="camisa hombre">
 			<h2>Clásica painless hombre</h2>
 			<p>S M L XL XXL</p>
@@ -61,7 +65,7 @@
 			<p>$50</p>
 			<a href="#">Adquirir</a>
 		</div>
-		<div class="div__card">
+		<div class="div__card text-white">
 			<img src="../img/camisa3.webp" alt="camisa hombre">
 			<h2>Clásica painless hombre</h2>
 			<p>S M L XL XXL</p>
@@ -69,7 +73,7 @@
 			<p>$30</p>
 			<a href="#">Adquirir</a>
 		</div>
-		<div class="div__card">
+		<div class="div__card text-white">
 			<img src="../img/camisa4.webp" alt="">
 			<h2>Clásica painless hombre</h2>
 			<p>S M L XL XXL</p>
@@ -77,7 +81,7 @@
 			<p>$70</p>
 			<a href="#">Adquirir</a>
 		</div>
-		<div class="div__card">
+		<div class="div__card text-white">
 			<img src="../img/calzado1.webp" alt="calzado hombre">
 			<h2>Calzado painless hombre</h2>
 			<p>S M L XL XXL</p>
@@ -85,7 +89,7 @@
 			<p>$70</p>
 			<a href="#">Adquirir</a>
 		</div>
-		<div class="div__card">
+		<div class="div__card text-white">
 			<img src="../img/calzado2.webp" alt="calzado hombre">
 			<h2>Calzado painless hombre</h2>
 			<p>S M L XL XXL</p>
@@ -94,43 +98,33 @@
 			<a href="#">Adquirir</a>
 		</div>
 	</div>
-	<footer>
-		<div class="footer-container">
-			<div class="footer-content-container">
-				<h3 class="website-logo">PAINLESS</h3>
-				<span class="footer-info">284 8241 912</span>
-				<span class="footer-info">painles@business.hotmail.com</span>
-			</div>
-			<div class="footer-menus">
-				<div class="footer-content-container">
-					<span class="menu-title">Menu</span>
-					<a href="" class="menu-item-footer">Home</a>
-					<a href="" class="menu-item-footer">Courses</a>
-					<a href="" class="menu-item-footer">Testimonials</a>
-				</div>
-				<div class="footer-content-container">
-					<span class="menu-title">Menu</span>
-					<a href="" class="menu-item-footer">Privacity Policy</a>
-					<a href="" class="menu-item-footer">Cookies</a>
-					<a href="" class="menu-item-footer">Terms & Conditions</a>
-				</div>
-			</div>
-			<div class="footer-content-container">
-				<span class="menu-title">Follow us</span>
-				<div class="social-container">
-					<a href="" class="social-link"></a>
-					<a href="" class="social-link"></a>
-					<a href="" class="social-link"></a>
-				</div>
-			</div>
+	<footer class="container  w-100">
+
+		<div class="row ">
+
+			<h2 class=" col-12 title__footer mb-0">PAINLESS</h2>
+			<span class="col-6 text-center">284 8241 912</span>
+			<span class="col-6 text-center">painles@business.com</span>
 		</div>
-		<div class="copyright-container">
-			<span class="copyright">&copy;2022, <Painless class="com"></Painless></span>
+
+		<div class="row">
+			<div class="row mx-auto my-2">
+
+				<a href="" class="col-4  ">Home</a>
+				<a href="" class="col-4 ">Courses</a>
+				<a href="" class="col-4 ">Testimonials</a>
+			</div>
+			<div class="row mx-auto my-2">
+
+				<a href="" class="col-4 ">Privacity Policy</a>
+				<a href="" class="col-4 ">Cookies</a>
+				<a href="" class="col-4 ">Terms & Conditions</a>
+			</div>
 		</div>
 	</footer>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"> </script>
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"> </script>
 </body>
 
 </html>
