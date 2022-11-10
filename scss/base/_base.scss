@@ -1,0 +1,18 @@
+$base-color:rgb(27, 30, 36);
+$footer-color: rgb(131, 102, 67);
+$white-color: #f8f9fa;
+$gray-color:#adb5bd;
+$black-color:#252629;
+body,
+html{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: $base-color;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
